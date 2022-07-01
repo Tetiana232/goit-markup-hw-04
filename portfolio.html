@@ -12,7 +12,7 @@
    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
- <header class="header">
+<header class="header">
         <div class="container header-site">
         <a lang="en" href="./index.html" class="logo">Web<span class="logo-accent">Studio</span></a>
        <nav>
@@ -22,12 +22,21 @@
             <li class="item"><a href="" class="site-item link">Контакты</a></li>
         </ul>
        </nav>
-        <ul class="contacts list">
-            <li class="item"><a class="contacts-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item"><a class="contacts-item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts list contacts-list">
+            <li class="item">
+                <a href="mailto:info@devstudio.com" class="contacts-item link">
+                <svg class="icon-envelope" width="16" height="12">
+                <use href="./img/icons.svg#icon-mail"></use>
+                </svg> info@devstudio.com</a></li>
+            <li class="item">
+            <a href="tel:+380961111111" class="contacts-item link">
+            <svg class="icon-vector" width="10" height="16">
+            <use href="./img/icons.svg#icon-telephone"></use>
+            </svg> +38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>
+
     <main>
         <section class="portfolio">
         <div class="container">
@@ -110,6 +119,7 @@
     </main>
     <footer class="footer">
         <div class="container">
+        <div class="logo-address">
         <a lang="en" href="./index.html" class="logo">Web<span class="footer-logo">Studio</span></a> 
         <address> 
         <ul class="address-list list">
@@ -117,8 +127,42 @@
             <li class="address-mail-list"><a href="mailto:info@example.com" class="address-mail link">info@example.com</a></li>
             <li class="adress-tel-list"><a href="tel:+380991111111" class="address-tel link">+38 099 111 11 11</a></li>
         </ul>
-        </address>
         </div>
+        </address>
+        <div class="soc-address">
+            <p class="invitation">Присоединяйтесь</p>
+            <ul class="expert-soc-list list">
+                <li class="expert-soc-item">
+                    <a href="" class="footer-soc-link">
+                        <svg class="soc-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="expert-soc-item">
+                    <a href="" class="footer-soc-link">
+                        <svg class="soc-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="expert-soc-item">
+                    <a href="" class="footer-soc-link">
+                        <svg class="soc-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="expert-soc-item">
+                    <a href="" class="footer-soc-link">
+                        <svg class="soc-icon" width="20" height="20">
+                            <use href="./img/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+         </div>
     </footer>
 </body>
 </html>
